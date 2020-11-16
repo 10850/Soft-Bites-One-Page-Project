@@ -28,44 +28,74 @@ blockquote:before, blockquote:after, q:before, q:after {
 /* END RESET */
 
 
-/* Styling */
-.menu {
-    background-color: red;
-    height: 300px;
-    grid-area: globalmenu;
+/* Behaviour */
+html {
+    scroll-behavior: smooth;
 }
 
-.home {
+.menu {
+    grid-area: globalmenu;
+    background-color: #75C6AB;
+
+}
+
+
+/* Styling */
+body {
+    margin-left: 2em;
+    margin-right: 2em;
+    background-image: url(big%20boy%20paws1.png);
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    margin-left: -2em;
+    margin-right: -2em;
+}
+
+#logo {
+    position: absolute;  
+    width: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#home {
     background-color: blue;
     height: 300px;
     grid-area: home;
 }
 
-.softbites {
+#softbites {
     background-color: green;
     height: 300px;
     grid-area: produkt;
 }
 
-.relaterede {
+#relaterede {
     background-color: greenyellow;
     height: 100px;
     grid-area: relaterede;
+    margin-left: -2em;
+    margin-right: -2em;
 }
 
-.training {
+#training {
     background-color: gray;
     height: 300px;
     grid-area: training;
 }
 
-.apport {
+#apport {
     background-color: pink;
     height: 300px;
     grid-area: apport;
+    margin-left: -2em;
+    margin-right: -2em;
 }
 
-.trivsel {
+#trivsel {
     background-color: yellow;
     height: 300px;
     grid-area: trivsel;
@@ -91,7 +121,6 @@ footer {
         "trivsel"
         "footer";
 }
-
 
 
 /* GRID(S) TIL TABLET */
