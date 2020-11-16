@@ -28,44 +28,53 @@ blockquote:before, blockquote:after, q:before, q:after {
 /* END RESET */
 
 
-/* Styling */
+/* Behaviour */
+html {
+    scroll-behavior: smooth;
+}
+
 .menu {
-    background-color: red;
-    height: 300px;
     grid-area: globalmenu;
 }
 
-.home {
+
+/* Styling */
+header {
+    width: 100%;
+    position: fixed;
+}
+
+#home {
     background-color: blue;
     height: 300px;
     grid-area: home;
 }
 
-.softbites {
+#softbites {
     background-color: green;
     height: 300px;
     grid-area: produkt;
 }
 
-.relaterede {
+#relaterede {
     background-color: greenyellow;
     height: 100px;
     grid-area: relaterede;
 }
 
-.training {
+#training {
     background-color: gray;
     height: 300px;
     grid-area: training;
 }
 
-.apport {
+#apport {
     background-color: pink;
     height: 300px;
     grid-area: apport;
 }
 
-.trivsel {
+#trivsel {
     background-color: yellow;
     height: 300px;
     grid-area: trivsel;
@@ -91,7 +100,6 @@ footer {
         "trivsel"
         "footer";
 }
-
 
 
 /* GRID(S) TIL TABLET */
