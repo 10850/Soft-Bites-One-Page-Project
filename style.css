@@ -35,6 +35,8 @@ html {
 
 .menu {
     grid-area: globalmenu;
+    background-color: #8cc2b1;
+
 }
 
 
@@ -42,6 +44,13 @@ html {
 header {
     width: 100%;
     position: fixed;
+}
+
+.navbar-brand {
+    position: absolute; 
+    margin:0px; auto; 
+    width: 100%;
+    text-align:center;
 }
 
 #home {
