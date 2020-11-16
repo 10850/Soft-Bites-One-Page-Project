@@ -26,3 +26,103 @@ blockquote:before, blockquote:after, q:before, q:after {
 
 }
 /* END RESET */
+
+
+/* Styling */
+.menu {
+    background-color: red;
+    height: 300px;
+    grid-area: globalmenu;
+}
+
+.home {
+    background-color: blue;
+    height: 300px;
+    grid-area: home;
+}
+
+.softbites {
+    background-color: green;
+    height: 300px;
+    grid-area: produkt;
+}
+
+.relaterede {
+    background-color: greenyellow;
+    height: 100px;
+    grid-area: relaterede;
+}
+
+.training {
+    background-color: gray;
+    height: 300px;
+    grid-area: training;
+}
+
+.apport {
+    background-color: pink;
+    height: 300px;
+    grid-area: apport;
+}
+
+.trivsel {
+    background-color: yellow;
+    height: 300px;
+    grid-area: trivsel;
+}
+
+footer {
+    background-color: purple;
+    height: 300px;
+    grid-area: footer;
+}
+
+
+
+/* GRID(S) TIL MOBILE */
+#pagewrap {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "globalmenu"
+        "home"
+        "produkt"
+        "training"
+        "apport"
+        "trivsel"
+        "footer";
+}
+
+
+
+/* GRID(S) TIL TABLET */
+@media screen and (min-width: 720px) {
+        #pagewrap {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "globalmenu"
+            "home"
+            "produkt"
+            "training"
+            "apport"
+            "trivsel"
+            "footer";
+    }
+}
+
+
+
+
+/* GRID(S) TIL DESKTOP */
+@media screen and (min-width: 1280px) {
+        #pagewrap {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "globalmenu"
+            "home"
+            "produkt"
+            "training"
+            "apport"
+            "trivsel"
+            "footer";
+    }
+}
