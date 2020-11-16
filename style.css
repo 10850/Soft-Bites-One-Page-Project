@@ -39,9 +39,17 @@ html {
 
 
 /* Styling */
+body {
+    margin-left: 2em;
+    margin-right: 2em;
+    background-image: url(big%20boy%20paws1.png);
+}
+
 header {
     width: 100%;
     position: fixed;
+    margin-left: -2em;
+    margin-right: -2em;
 }
 
 #home {
@@ -60,6 +68,8 @@ header {
     background-color: greenyellow;
     height: 100px;
     grid-area: relaterede;
+    margin-left: -2em;
+    margin-right: -2em;
 }
 
 #training {
@@ -72,6 +82,8 @@ header {
     background-color: pink;
     height: 300px;
     grid-area: apport;
+    margin-left: -2em;
+    margin-right: -2em;
 }
 
 #trivsel {
