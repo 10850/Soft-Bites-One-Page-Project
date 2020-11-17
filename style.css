@@ -51,7 +51,7 @@ header {
     width: 100%;
     position: fixed;
     margin-left: -2em;
-    margin-right: -2em;
+    margin-right: -2em; /* Margin-right/left: -2em; er fordi nogle af elementer skal dække hele bredden af siden, efter <body> fik en margin på 2em både right og left */
 }
 
 .navbar button {
@@ -111,8 +111,10 @@ header {
 
 footer {
     background-color: purple;
-    height: 300px;
+    height: 100px;
     grid-area: footer;
+    margin-left: -2em;
+    margin-right: -2em;
 }
 
 
