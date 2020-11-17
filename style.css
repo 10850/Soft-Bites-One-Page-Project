@@ -54,9 +54,13 @@ header {
     margin-right: -2em;
 }
 
+#menuicon {
+    width: 50px;
+}
+
 #logo {
-    position: absolute;  
-    width: 80px;
+    position: absolute;
+    width: 60px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -137,8 +141,6 @@ footer {
             "footer";
     }
 }
-
-
 
 
 /* GRID(S) TIL DESKTOP */
