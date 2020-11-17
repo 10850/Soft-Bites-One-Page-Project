@@ -54,8 +54,12 @@ header {
     margin-right: -2em;
 }
 
+.navbar button {
+    border: none; /* Det er så bootstrap burger menuen ikke har en border omkring vores burger menu. Som er designet i illustrator */
+}
+
 #menuicon {
-    width: 50px;
+    width: 50px; /* Ny burger menuicon designet på illustrator */
 }
 
 #logo {
