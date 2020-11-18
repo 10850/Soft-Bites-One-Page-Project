@@ -96,7 +96,7 @@ header {
 
 #training {
     background-color: gray;
-    height: 300px;
+    height: auto;
     grid-area: training;
 }
 
