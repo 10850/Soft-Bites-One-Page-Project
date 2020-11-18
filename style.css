@@ -97,12 +97,31 @@ header {
     padding-bottom: 0.8em;
 }
 
+#forretninger {
+    max-width: 100%;
+    height: auto;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
 #relaterede {
-    background-color: #FBFBFB;
-    height: 100px;
     grid-area: relaterede;
-    margin-right: -2em;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-bottom: 0.8em;
+    padding-top: 1em;
+    color: #27335f;
+    font-size: 1.5em;
+    text-shadow: 0.2px 0.2px;
+    text-align: center;
+    background-image: url(framemobile1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#carouselExampleIndicators {
     margin-left: -2em;
+    margin-right: -2em;
 }
 
 #training {
@@ -210,6 +229,11 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
 }
+    #relaterede {
+    background-image: url(frameframe1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
 
 #training {
     background-image: url(frameframe1.png);
