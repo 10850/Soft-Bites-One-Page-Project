@@ -84,9 +84,24 @@ header {
     grid-area: produkt;
     padding-right: 2em;
     padding-left: 2em;
+    padding-bottom: 1em;
     background-image: url(framemobile1.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#softbitespose {
+    margin-left: 2em;;
+}
+
+#buynow {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 4em;
+    margin-right: 4em;
+    color: black;
+    background-color: orange;
+    border: 2px solid black;
 }
 
 #fordele {
@@ -98,18 +113,71 @@ header {
     padding-bottom: 0.8em;
 }
 
+#grocery {
+    display: inline-flex;
+    list-style: none;
+    width: 70%;
+    margin-left: 4em;
+    
+}
+
+#grocerycontainer h3 {
+    text-align: center;
+    margin-bottom: 0.4em;
+}
+
+#minkomandimg {
+    width: 100%;
+}
+
+#sparimg {
+    width: 100%;
+}
+
+#menyimg {
+   width: 100%; 
+}
+
+#letkobimg {
+   width: 100%; 
+}
+
 #relaterede {
-    background-color: #FBFBFB;
-    height: 100px;
+    text-align: center;
+    background-image: url(bgrelaterede.png);
+    background-size: contain;
+    height: auto;
     grid-area: relaterede;
     margin-right: -2em;
     margin-left: -2em;
+}
+
+#relaterede h2 {
+    margin-bottom: 0.5em;
+}
+
+.produkterne {
+    list-style: none;
+    display: inline-flex;
+}
+
+#denta {
+    width:80%;
+}
+
+#mixed {
+    width: 80%;
+}
+
+#strips {
+    width: 80%;
 }
 
 #training {
     background-color: #FBFBFB;
     height: auto;
     grid-area: training;
+    padding-top: 1em;
     padding-right: 2em;
     padding-left: 2em;
     background-image: url(framemobile1.png);
@@ -216,6 +284,62 @@ footer {
              
 }
 
+#softbitespose {
+    grid-area: pose;
+}
+
+.tekstsoftbites {
+    grid-area: softbitetekst;
+}
+
+#fordelecontainer {
+    grid-area: fordele;
+}
+
+#buynow {
+    grid-area: buynow;
+}
+
+#grocerycontainer {
+    grid-area: grocery;
+}
+
+#softbites {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "softbitetekst softbitetekst"
+        "fordele fordele"
+        "pose pose"
+        "buynow buynow"
+        "grocery grocery";
+}
+
+#minkobmand {
+    grid-area: minkobmand;
+}
+
+#spar {
+    grid-area: spar;
+}
+
+#meny {
+    grid-area: meny;
+}
+
+#letkob {
+    grid-area: letkob;
+}
+
+#grocery {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "minkobmand meny"
+        "spar letkob"
+}
+
 
 /* GRID(S) TIL MOBILE */
 #pagewrap {
@@ -284,6 +408,17 @@ footer {
         "hundeogejer teksttrivsel";          
 }
     
+    #denta {
+       width: 60%; 
+    }
+    
+    #strips {
+        width: 60%;
+    }
+    
+    #mixed {
+        width: 60%;
+    }
 }
 
 
@@ -319,5 +454,17 @@ footer {
     grid-template-areas:
         "hundeogejer teksttrivsel";          
 }
+    
+    #denta {
+        width: 50%;
+    }
+    
+    #strips {
+        width: 50%;
+    }
+    
+    #mixed {
+        width: 50%;
+    }
     
 }
