@@ -131,18 +131,30 @@ header {
 
 #trivsel {
     background-color: #FBFBFB;
-    height: 300px;
+    height: 700px;
     grid-area: trivsel;
     padding-right: 2em;
     padding-left: 2em;
+    padding-bottom: 5em;
     background-image: url(framemobile1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+#overlap {
+    position: relative;
+}
+
+#overlap img {
+    position: absolute;
+    height: 220px;
+    bottom: 1px;
+    margin-left: -6.5em
+}
+
 footer {
     background-color: #75C6AB;
-    height: 100px;
+    height: 80px;
     margin-right: -2em;
     margin-left: -2em;
     grid-area: footer;
