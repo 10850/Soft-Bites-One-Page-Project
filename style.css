@@ -29,6 +29,10 @@ blockquote:before, blockquote:after, q:before, q:after {
 
 
 /* Styling */
+body {
+    background-image: url(big%20boy%20paws1.png);
+}
+
 .menu {
     background-color: red;
     height: 300px;
@@ -128,20 +132,7 @@ footer {
             "footer";
     }
     
-    #whiteborder {
-        margin-right: 60px;
-        margin-left: 60px;
-    }
-    
-    #relaterede {
-        margin-right: -72px;
-        margin-left: -72px;
-    }
-    
-    #apport {
-        margin-right: -72px;
-        margin-left: -72px;
-    }
+
 }
 
 
@@ -162,18 +153,4 @@ footer {
             "footer";
     }
     
-    #whiteborder {
-        margin-right: 70px;
-        margin-left: 70px;
-    }
-    
-    #relaterede {
-        margin-right: -82px;
-        margin-left: -82px;
-    }
-    
-    #apport {
-        margin-right: -82px;
-        margin-left: -82px;
-    }
 }
