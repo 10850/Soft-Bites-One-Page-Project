@@ -131,8 +131,10 @@ header {
 
 #trivsel {
     background-color: #FBFBFB;
-    height: 300px;
+    height: auto;
     grid-area: trivsel;
+    padding-top: 1em;
+    padding-bottom: 1em;
     padding-right: 2em;
     padding-left: 2em;
     background-image: url(framemobile1.png);
@@ -159,6 +161,38 @@ footer {
     border: 4px solid #75C6AB;
 }
 */
+
+
+/* GRIDS TIL SEKTIONER */
+#hundehighfive {
+    max-width: 100%;
+    height: auto;
+    grid-area: hundeogejer;
+}
+
+#overskrifttiltrivsel {
+    grid-area: trivseltitel;
+}
+
+.teksttrivsela {
+    grid-area: teksttiltrivsela;
+}
+
+.teksttrivselb {
+    grid-area: teksttiltrivselb;
+}
+
+#trivsel {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "trivseltitel"
+        "hundeogejer"
+        "teksttiltrivsela"
+        "teksttiltrivselb";
+             
+}
+
 
 /* GRID(S) TIL MOBILE */
 #pagewrap {
@@ -222,6 +256,17 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+    #containertrivsel {
+        grid-area: teksttrivsel;
+    }
+    
+#trivsel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "hundeogejer teksttrivsel";          
+}
     
 }
 
@@ -256,5 +301,16 @@ footer {
         margin-left: 70px;
     }
     */
+    
+#containertrivsel {
+    grid-area: teksttrivsel;
+    }
+    
+#trivsel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "hundeogejer teksttrivsel";          
+}
     
 }
