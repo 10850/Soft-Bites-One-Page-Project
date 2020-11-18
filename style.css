@@ -43,11 +43,15 @@ html {
 /* Styling */
 body {
     background-image: url(big%20boy%20paws1.png);
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 header {
     width: 100%;
     position: fixed;
+    margin-right: -2em;
+    margin-left: -2em;
 }
 
 .navbar button {
@@ -69,12 +73,16 @@ header {
     background-color: blue;
     height: 300px;
     grid-area: home;
+    margin-right: -2em;
+    margin-left: -2em;
 }
 
 #softbites {
     background-color: #FBFBFB;
-    height: 300px;
+    height: auto;
     grid-area: produkt;
+    padding-right: 2em;
+    padding-left: 2em;
     background-image: url(framemobile1.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -93,14 +101,16 @@ header {
     background-color: #FBFBFB;
     height: 100px;
     grid-area: relaterede;
-    margin-left: -52px;
-    margin-right: -52px;
+    margin-right: -2em;
+    margin-left: -2em;
 }
 
 #training {
     background-color: #FBFBFB;
     height: auto;
     grid-area: training;
+    padding-right: 2em;
+    padding-left: 2em;
     background-image: url(framemobile1.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -110,8 +120,8 @@ header {
     background-color: #FBFBFB;
     height: auto;
     grid-area: apport;
-    margin-left: -52px;
-    margin-right: -52px;
+    margin-right: -2em;
+    margin-left: -2em;
     
 }
 
@@ -123,6 +133,8 @@ header {
     background-color: #FBFBFB;
     height: 300px;
     grid-area: trivsel;
+    padding-right: 2em;
+    padding-left: 2em;
     background-image: url(framemobile1.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -131,6 +143,8 @@ header {
 footer {
     background-color: #75C6AB;
     height: 100px;
+    margin-right: -2em;
+    margin-left: -2em;
     grid-area: footer;
 }
 
@@ -173,7 +187,8 @@ footer {
             "trivsel"
             "footer";
     }
-    
+  
+    /*
     #relaterede {
         margin-right: -72px;
         margin-left: -72px;
@@ -188,6 +203,7 @@ footer {
         margin-right: 70px;
         margin-left: 70px;
     }
+    */
     
     #softbites {
     background-image: url(frameframe1.png);
@@ -223,7 +239,7 @@ footer {
             "trivsel"
             "footer";
     }
-    
+    /*
     #apport {
         margin-right: -82px;
         margin-left: -82px;
@@ -239,5 +255,6 @@ footer {
         margin-right: 70px;
         margin-left: 70px;
     }
+    */
     
 }
