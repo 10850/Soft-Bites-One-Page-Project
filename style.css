@@ -117,12 +117,21 @@ header {
 }
 
 #apport {
-    background-color: #FBFBFB;
-    height: auto;
+    background-image: url(puppy-sit.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    color: white;
+    height: 350px;
     grid-area: apport;
     margin-right: -2em;
-    margin-left: -2em;
-    
+    margin-left: -2em; 
+}
+
+#tekstguide {
+    position: absolute;
+    width: 50%;
+    left: 48%;
 }
 
 #howtosit {
