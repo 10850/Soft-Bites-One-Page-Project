@@ -79,7 +79,6 @@ header {
 }
 
 #softbites {
-    background-color: #FBFBFB;
     height: auto;
     grid-area: produkt;
     padding-right: 2em;
@@ -96,6 +95,16 @@ header {
 
 .godepointer {
     padding-bottom: 0.8em;
+}
+
+#posesoftbites {
+    max-width: 100%;
+    height: auto;
+}
+
+#forhandlere {
+    max-width: 100%;
+    height: auto;
 }
 
 #relaterede {
