@@ -72,7 +72,7 @@ header {
 }
 
 #softbites {
-    background-color: white;
+    background-color: #FBFBFB;
     height: 300px;
     grid-area: produkt;
 }
@@ -87,7 +87,7 @@ header {
 }
 
 #relaterede {
-    background-color: white;
+    background-color: #FBFBFB;
     height: 100px;
     grid-area: relaterede;
     margin-left: -52px;
@@ -95,13 +95,13 @@ header {
 }
 
 #training {
-    background-color: white;
+    background-color: #FBFBFB;
     height: auto;
     grid-area: training;
 }
 
 #apport {
-    background-color: white;
+    background-color: #FBFBFB;
     height: auto;
     grid-area: apport;
     margin-left: -52px;
@@ -113,7 +113,7 @@ header {
 }
 
 #trivsel {
-    background-color: white;
+    background-color: #FBFBFB;
     height: 300px;
     grid-area: trivsel;
 }
