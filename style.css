@@ -75,6 +75,9 @@ header {
     background-color: #FBFBFB;
     height: 300px;
     grid-area: produkt;
+    background-image: url(framemobile1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #fordele {
@@ -98,6 +101,9 @@ header {
     background-color: #FBFBFB;
     height: auto;
     grid-area: training;
+    background-image: url(framemobile1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #apport {
@@ -106,6 +112,7 @@ header {
     grid-area: apport;
     margin-left: -52px;
     margin-right: -52px;
+    
 }
 
 #howtosit {
@@ -116,6 +123,9 @@ header {
     background-color: #FBFBFB;
     height: 300px;
     grid-area: trivsel;
+    background-image: url(framemobile1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 footer {
@@ -124,7 +134,7 @@ footer {
     grid-area: footer;
 }
 
-
+/*
 #whiteborder {
     border: 8px solid white;
     margin-right: 40px;
@@ -134,7 +144,7 @@ footer {
 #turkisborder {
     border: 4px solid #75C6AB;
 }
-
+*/
 
 /* GRID(S) TIL MOBILE */
 #pagewrap {
@@ -178,6 +188,24 @@ footer {
         margin-right: 70px;
         margin-left: 70px;
     }
+    
+    #softbites {
+    background-image: url(frameframe1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#training {
+    background-image: url(frameframe1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+#trivsel {
+    background-image: url(frameframe1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
     
 }
 
