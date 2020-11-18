@@ -162,6 +162,17 @@ footer {
     grid-area: footer;
 }
 
+#overlap {
+    position: relative;
+}
+
+#overlap img {
+    position: absolute;
+    height: 220px;
+    bottom: 1px;
+    margin-left: -7em
+}
+
 /*
 #whiteborder {
     border: 8px solid white;
