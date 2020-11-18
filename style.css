@@ -77,6 +77,15 @@ header {
     grid-area: produkt;
 }
 
+#fordele {
+    list-style: disc;
+    margin-left: 2em;
+}
+
+.godepointer {
+    padding-bottom: 0.8em;
+}
+
 #relaterede {
     background-color: greenyellow;
     height: 100px;
