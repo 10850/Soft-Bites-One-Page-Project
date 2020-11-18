@@ -131,8 +131,10 @@ header {
 
 #trivsel {
     background-color: #FBFBFB;
-    height: 300px;
+    height: auto;
     grid-area: trivsel;
+    padding-top: 1em;
+    padding-bottom: 1em;
     padding-right: 2em;
     padding-left: 2em;
     background-image: url(framemobile1.png);
@@ -159,6 +161,32 @@ footer {
     border: 4px solid #75C6AB;
 }
 */
+
+
+/* GRIDS TIL SEKTIONER */
+#hundehighfive {
+    max-width: 100%;
+    grid-area: hundeogejer;
+}
+
+#overskrifttiltrivsel {
+    grid-area: trivseltitel;
+}
+
+.teksttrivsel {
+    grid-area: teksttiltrivsel;
+}
+
+#trivsel {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "trivseltitel"
+        "hundeogejer"
+        "teksttiltrivsel";
+             
+}
+
 
 /* GRID(S) TIL MOBILE */
 #pagewrap {
