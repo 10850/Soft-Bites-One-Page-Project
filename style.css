@@ -42,16 +42,12 @@ html {
 
 /* Styling */
 body {
-    margin-left: 2em;
-    margin-right: 2em;
     background-image: url(big%20boy%20paws1.png);
 }
 
 header {
     width: 100%;
     position: fixed;
-    margin-left: -2em;
-    margin-right: -2em; /* Margin-right/left: -2em; er fordi nogle af elementer skal dække hele bredden af siden, efter <body> fik en margin på 2em både right og left */
 }
 
 .navbar button {
@@ -85,8 +81,8 @@ header {
     background-color: greenyellow;
     height: 100px;
     grid-area: relaterede;
-    margin-left: -2em;
-    margin-right: -2em;
+    margin-left: -52px;
+    margin-right: -52px;
 }
 
 #training {
@@ -99,8 +95,8 @@ header {
     background-color: pink;
     height: 300px;
     grid-area: apport;
-    margin-left: -2em;
-    margin-right: -2em;
+    margin-left: -52px;
+    margin-right: -52px;
 }
 
 #trivsel {
@@ -113,10 +109,18 @@ footer {
     background-color: purple;
     height: 100px;
     grid-area: footer;
-    margin-left: -2em;
-    margin-right: -2em;
 }
 
+
+#whiteborder {
+    border: 8px solid white;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+#turkisborder {
+    border: 4px solid #75C6AB;
+}
 
 
 /* GRID(S) TIL MOBILE */
@@ -146,6 +150,22 @@ footer {
             "trivsel"
             "footer";
     }
+    
+    #relaterede {
+        margin-right: -72px;
+        margin-left: -72px;
+    }
+    
+    #apport {
+        margin-right: -72px;
+        margin-left: -72px;
+    }
+    
+    #whiteborder {
+        margin-right: 70px;
+        margin-left: 70px;
+    }
+    
 }
 
 
@@ -162,4 +182,21 @@ footer {
             "trivsel"
             "footer";
     }
+    
+    #apport {
+        margin-right: -82px;
+        margin-left: -82px;
+    }
+    
+    
+    #relaterede {
+        margin-right: -82px;
+        margin-left: -82px;
+    }
+    
+    #whiteborder {
+        margin-right: 70px;
+        margin-left: 70px;
+    }
+    
 }
