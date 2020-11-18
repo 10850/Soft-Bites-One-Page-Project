@@ -79,6 +79,8 @@ header {
     background-color: green;
     height: 300px;
     grid-area: produkt;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 #relaterede {
@@ -93,6 +95,8 @@ header {
     background-color: gray;
     height: 300px;
     grid-area: training;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 #apport {
@@ -105,11 +109,8 @@ header {
 
 #trivsel {
     background-color: yellow;
-    height: 700px ;
+    height: 900px;
     grid-area: trivsel;
-    background-image: url(frame.png);
-    background-repeat: no-repeat;
-    background-size: 420px 800px;
     padding-left: 2em;
     padding-right: 2em;
 }
@@ -163,13 +164,6 @@ footer {
             "trivsel"
             "footer";
     }
-    #trivsel {
-        background-image: url(frame.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-}
-
 
 /* GRID(S) TIL DESKTOP */
 @media screen and (min-width: 1280px) {
