@@ -82,7 +82,7 @@ header {
     padding-left: 2em;
     padding-right: 2em;
     margin-top: 1.3em;
-    background-image: url(framemobile.png);
+    background-image: url(framemobile1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -101,7 +101,7 @@ header {
     grid-area: training;
     padding-left: 2em;
     padding-right: 2em;
-    background-image: url(framemobile.png);
+    background-image: url(framemobile1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -120,7 +120,7 @@ header {
     grid-area: trivsel;
     padding-left: 2em;
     padding-right: 2em;
-    background-image: url(framemobile.png);
+    background-image: url(framemobile1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -176,19 +176,19 @@ footer {
 }
     
 #softbites {
-    background-image: url(frameframe.png);
+    background-image: url(frameframe1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #training {
-    background-image: url(frameframe.png);
+    background-image: url(frameframe1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
     
 #trivsel {
-    background-image: url(frameframe.png);
+    background-image: url(frameframe1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
