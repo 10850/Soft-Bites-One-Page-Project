@@ -109,7 +109,7 @@ header {
 
 #trivsel {
     background-color: yellow;
-    height: 900px;
+    height: 300px;
     grid-area: trivsel;
     padding-left: 2em;
     padding-right: 2em;
