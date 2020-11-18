@@ -166,6 +166,7 @@ footer {
 /* GRIDS TIL SEKTIONER */
 #hundehighfive {
     max-width: 100%;
+    height: auto;
     grid-area: hundeogejer;
 }
 
@@ -173,8 +174,12 @@ footer {
     grid-area: trivseltitel;
 }
 
-.teksttrivsel {
-    grid-area: teksttiltrivsel;
+.teksttrivsela {
+    grid-area: teksttiltrivsela;
+}
+
+.teksttrivselb {
+    grid-area: teksttiltrivselb;
 }
 
 #trivsel {
@@ -183,7 +188,8 @@ footer {
     grid-template-areas:
         "trivseltitel"
         "hundeogejer"
-        "teksttiltrivsel";
+        "teksttiltrivsela"
+        "teksttiltrivselb";
              
 }
 
@@ -250,6 +256,17 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+    #containertrivsel {
+        grid-area: teksttrivsel;
+    }
+    
+#trivsel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "hundeogejer teksttrivsel";          
+}
     
 }
 
@@ -284,5 +301,16 @@ footer {
         margin-left: 70px;
     }
     */
+    
+#containertrivsel {
+    grid-area: teksttrivsel;
+    }
+    
+#trivsel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "hundeogejer teksttrivsel";          
+}
     
 }
