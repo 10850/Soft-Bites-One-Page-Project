@@ -113,7 +113,7 @@ header {
 }
 
 #fordele {
-    list-style: disc;
+    list-style-image: url(potelist.png);
     margin-left: 2em;
 }
 
