@@ -860,6 +860,15 @@ footer {
     #containertrivsel {
         padding-left: 4em;
         padding-right: 1em;
+        padding-bottom: 3em;
+        padding-top: 3em;
+    }
+    
+    #containertrivsel p {
+        font-size: 1.2em;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-top: 1em;
     }
     
     body {
@@ -897,7 +906,7 @@ footer {
     
     /* Font manipulation */
     h2 {
-        font-size: 50px;
+        font-size: 40px;
     }
     
     h3 {
@@ -908,6 +917,13 @@ footer {
         padding-left: 3em;
     }
     
+    #teksttraining p {
+        font-size: 1.2em;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-top: 1em;
+    }
+    
     #apport li{
         font-size: 20px;
     }
@@ -916,4 +932,7 @@ footer {
         font-size: 20px;
     }
     
+    #hundehighfive {
+        padding-bottom: 3em;
+    }
 }
