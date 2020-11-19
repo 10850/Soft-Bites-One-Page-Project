@@ -535,6 +535,14 @@ footer {
     z-index: 5;
 }
     
+    header {
+        z-index: 98;
+    }
+    
+    #logo {
+        z-index: 99;
+    }
+    
     
     #logo {
         margin-top: -1em;
