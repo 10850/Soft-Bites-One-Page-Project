@@ -531,6 +531,14 @@ footer {
     transform: translateY(50%);
 }
     
+    header {
+        z-index: 98;
+    }
+    
+    #logo {
+        z-index: 99;
+    }
+    
     
     #logo {
         margin-top: -1em;
@@ -735,6 +743,19 @@ footer {
             "trivsel"
             "footer";
     }
+    
+    #hundforside {
+        z-index: 99;
+    }
+    
+    header {
+        z-index: 97;
+    }
+    
+    #logo {
+        z-index: 98;
+    }
+    
     #apport {
         height: 800px;
         background-position: right;
@@ -901,7 +922,6 @@ footer {
         position: fixed;
         margin-right: -6em;
         margin-left: -6em;
-        z-index: 1;
     }
     
     /* Font manipulation */
