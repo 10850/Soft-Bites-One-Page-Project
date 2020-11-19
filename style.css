@@ -247,6 +247,16 @@ header {
     background-size: cover;
 }
 
+#training img {
+    grid-area: imgtraining;
+    max-width: 100%;
+    height: auto;
+}
+
+#training div {
+        grid-area: teksttraining;
+    }
+
 #apport {
     background-image: url(header_teach_sit-flip.jpg);
     background-size: cover;
@@ -450,6 +460,13 @@ footer {
     background-image: url(frameframe1.png);
     background-repeat: no-repeat;
     background-size: cover;
+    }
+    
+    #training {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "teksttraining imgtraining";
     }
     
 #apport {
