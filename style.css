@@ -121,7 +121,7 @@ header {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    width: 80%;
+    width: 100%;
     height: auto;
 }
 
@@ -192,7 +192,7 @@ header {
 
 #relaterede {
     text-align: center;
-    background-image: url(bgrelaterede.png);
+    background-image: url(no%20bg%20paw.png);
     background-size: contain;
     height: auto;
     grid-area: relaterede;
@@ -212,6 +212,7 @@ header {
 
 #denta {
     width: 60%;
+    
 }
 
 #denta:active {
@@ -220,6 +221,7 @@ header {
 
 #mixed {
     width: 60%;
+    
 }
 
 #mixed:active {
@@ -550,12 +552,14 @@ footer {
         position: relative;
         left: 50%;
         transform: translateX(-50%);
-        
+        bottom: 50%;
     }
     
     #softbitespose {
-        max-width:  width: 100%;
+        width: 100%;
         height: auto;
+        position: relative;
+        bottom: 20%;
     }
     
 }
