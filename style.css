@@ -163,7 +163,7 @@ header {
 
 
 #fordele {
-    list-style: disc;
+    list-style-image: url();
     margin-left: 2em;
 }
 
