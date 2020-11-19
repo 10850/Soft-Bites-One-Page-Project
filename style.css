@@ -29,6 +29,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 
 
 /* Behaviour */
+
 html {
     scroll-behavior: smooth;
 }
@@ -41,6 +42,28 @@ html {
 
 
 /* Styling */
+h1, h2, h3, h4, h5, h6 {
+    font-family: franklin gothic;
+    font-weight: bold;
+    color: #0C145D;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+p, li {
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
     background-image: url(big%20boy%20paws1.png);
     margin-left: 2em;
