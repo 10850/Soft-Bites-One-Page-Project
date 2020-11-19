@@ -162,6 +162,32 @@ footer {
     grid-area: footer;
 }
 
+#facebook {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    left: 70%;
+    transform: translateX(-50%);
+    padding-top: 1.5em;
+}
+
+#twitter {
+    position: absolute;
+    max-width: 100&;
+    height: auto;
+    left: 80%;
+    transform: translateX(-50%);
+    padding-top: 1.5em;
+}
+
+#instagram {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    left: 90%;
+    transform: translateX(-50%);
+    padding-top: 1.5em;
+}
 /*
 #whiteborder {
     border: 8px solid white;
