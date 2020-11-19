@@ -735,6 +735,15 @@ footer {
             "trivsel"
             "footer";
     }
+    
+    header {
+        z-index: 95;
+    }
+    
+    #logo {
+        z-index: 99;
+    }
+    
     #apport {
         height: 800px;
         background-position: right;
