@@ -505,6 +505,7 @@ footer {
     width: 40%;
     left: -14%;
     transform: translateY(-50%);
+        z-index: 5;
 }
 
 #regn2 {
@@ -513,6 +514,7 @@ footer {
     width: 40%;
     left: -14%;
     transform: translateY(-50%);
+    z-index: 5;
 }
 
 #regn3 {
@@ -521,6 +523,7 @@ footer {
     width: 40%;
     left: 60%;
     transform: translateY(200%);
+    z-index: 5;
 }
 
 #regn4 {
@@ -529,6 +532,7 @@ footer {
     width: 30%;
     left: -10%;
     transform: translateY(50%);
+    z-index: 5;
 }
     
     
