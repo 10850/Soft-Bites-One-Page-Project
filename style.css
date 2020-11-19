@@ -505,7 +505,6 @@ footer {
     width: 40%;
     left: -14%;
     transform: translateY(-50%);
-        z-index: 5;
 }
 
 #regn2 {
@@ -514,7 +513,6 @@ footer {
     width: 40%;
     left: -14%;
     transform: translateY(-50%);
-    z-index: 5;
 }
 
 #regn3 {
@@ -523,7 +521,6 @@ footer {
     width: 40%;
     left: 60%;
     transform: translateY(200%);
-    z-index: 5;
 }
 
 #regn4 {
@@ -532,7 +529,6 @@ footer {
     width: 30%;
     left: -10%;
     transform: translateY(50%);
-    z-index: 5;
 }
     
     header {
@@ -748,12 +744,16 @@ footer {
             "footer";
     }
     
+    #hundforside {
+        z-index: 99;
+    }
+    
     header {
-        z-index: 95;
+        z-index: 97;
     }
     
     #logo {
-        z-index: 99;
+        z-index: 98;
     }
     
     #apport {
@@ -913,7 +913,6 @@ footer {
         position: fixed;
         margin-right: -6em;
         margin-left: -6em;
-        z-index: 1;
     }
     
     /* Font manipulation */
