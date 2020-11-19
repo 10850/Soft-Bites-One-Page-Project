@@ -29,6 +29,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 
 
 /* Behaviour */
+
 html {
     scroll-behavior: smooth;
 }
@@ -41,6 +42,28 @@ html {
 
 
 /* Styling */
+h1, h2, h3, h4, h5, h6 {
+    font-family: franklin gothic;
+    font-weight: bold;
+    color: #0C145D;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+p, li {
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
     background-image: url(big%20boy%20paws1.png);
     margin-left: 2em;
@@ -227,7 +250,7 @@ header {
 }
 
 #apport {
-    background-image: url(header_teach_sit.jpg);
+    background-image: url(header_teach_sit-flip.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -236,6 +259,15 @@ header {
     grid-area: apport;
     margin-right: -2em;
     margin-left: -2em; 
+}
+
+#apport h2 {
+    color: white;
+}
+
+#apport p {
+    font-weight: 500;
+    padding-bottom: 0.3em;
 }
 
 #tekstguide {
@@ -249,6 +281,12 @@ header {
 #howtosit {
     margin-left: 2em;
 }
+
+.sitsteps {
+    font-weight: 500;
+    padding-bottom: 1em;
+}
+
 
 #trivsel {
     background-color: #FBFBFB;
@@ -281,8 +319,6 @@ footer {
     bottom: 1px;
     margin-left: -7em
 }
-
-
 
 /* GRIDS TIL SEKTIONER */
 #hundehighfive {
@@ -419,12 +455,16 @@ footer {
     }
     
 #apport {
-    height: 800px;
+    height: 600px;
+    background-position: right;
+    
 }
 
 #tekstguide {
     transform: translateY(40%);
+    transform: translateX(140%);
     width: 40%;
+    height: auto;
     padding-left: 2em;
 }
 
@@ -432,10 +472,17 @@ footer {
         grid-area: teksttrivsel;
         padding-left: 1em;
         padding-right: 1em;
+=======
+    
+#containertrivsel {
+    grid-area: teksttrivsel;
+    padding-left: 2em;
+    padding-right: 1em;
     }
     
     #hundehighfive {
         padding-right: 1em;
+
     }
     
     #trivsel {
@@ -447,7 +494,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-        "hundeogejer teksttrivsel";          
+        "teksttrivsel hundeogejer";          
 }
     
     #denta {
@@ -544,11 +591,13 @@ footer {
             "footer";
     }
     #apport {
-        height: 600px;
+        height: 800px;
+        background-position: right;
     }
 
     #tekstguide {
-        transform: translateY(20%);
+        transform: translateX(170%);
+        margin-top: 2em;
         width: 35%;
     }
     
@@ -556,13 +605,18 @@ footer {
     grid-area: teksttrivsel;
     }
     
+    #hundehighfive {
+        padding-right: 3em;
+    }
+    
 #trivsel {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-        "hundeogejer teksttrivsel";          
+        "teksttrivsel hundeogejer";          
 }
     
+
     #denta {
     width: 50%;
     }
@@ -651,4 +705,11 @@ footer {
         left: 50%;
         transform: translateX(-50%);
     }
+=======
+    #containertrivsel {
+        padding-left: 4em;
+        padding-right: 1em;
+    }
+    
+
 }
