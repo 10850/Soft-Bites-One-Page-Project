@@ -774,6 +774,7 @@ footer {
         transform: translateX(-60%);
         max-width: 100%;
         height: auto;
+        margin-top: 3em;
     }
     
     #grocerycontainer {
@@ -833,6 +834,14 @@ footer {
     
     #teksttraining {
         padding-left: 3em;
+    }
+    
+    #apport li{
+        font-size: 20px;
+    }
+    
+    #apport p {
+        font-size: 20px;
     }
     
 }
