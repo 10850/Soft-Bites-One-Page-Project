@@ -141,7 +141,7 @@ header {
 }
 
 #apport {
-    background-image: url(header_teach_sit.jpg);
+    background-image: url(header_teach_sit-flip.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -292,7 +292,9 @@ footer {
 
 #tekstguide {
     transform: translateY(40%);
+    transform: translateX(140%);
     width: 40%;
+    height: auto;
     padding-left: 2em;
 }
 
@@ -329,6 +331,7 @@ footer {
 
     #tekstguide {
         transform: translateY(20%);
+        transform: translateX(170%);
         width: 35%;
     }
     
