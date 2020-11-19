@@ -90,18 +90,40 @@ header {
     background-size: cover;
 }
 
+#softbites h1 {
+    text-align: center;
+}
+
 #softbitespose {
-    margin-left: 2em;;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: auto;
 }
 
 #buynow {
     margin-top: 1em;
     margin-bottom: 1em;
-    margin-left: 4em;
-    margin-right: 4em;
     color: black;
     background-color: orange;
     border: 2px solid black;
+    font-weight: 500;
+    width: 150px;
+    height: 60px;
+}
+
+#buynow {
+    position: relative;
+    left: 100%;
+    transform: translateX(-50%);
+}
+
+#buynow:active {
+    background-color: white;
+    color: orange;
+    border: 4px solid orange;
+    font-weight: 800;
 }
 
 #fordele {
@@ -117,7 +139,9 @@ header {
     display: inline-flex;
     list-style: none;
     width: 70%;
-    margin-left: 4em;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
     
 }
 
@@ -154,6 +178,7 @@ header {
 
 #relaterede h2 {
     margin-bottom: 0.5em;
+    padding-top: 0.5em;
 }
 
 .produkterne {
@@ -162,15 +187,27 @@ header {
 }
 
 #denta {
-    width:80%;
+    width: 60%;
+}
+
+#denta:active {
+    width: 65%;
 }
 
 #mixed {
-    width: 80%;
+    width: 60%;
+}
+
+#mixed:active {
+    width: 65%;
 }
 
 #strips {
-    width: 80%;
+    width: 60%;
+}
+
+#strips:active {
+    width: 65%;
 }
 
 #training {
@@ -183,6 +220,10 @@ header {
     background-image: url(framemobile1.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#training h1 {
+    text-align: center;
 }
 
 #apport {
@@ -241,17 +282,6 @@ footer {
     margin-left: -7em
 }
 
-/*
-#whiteborder {
-    border: 8px solid white;
-    margin-right: 40px;
-    margin-left: 40px;
-}
-
-#turkisborder {
-    border: 4px solid #75C6AB;
-}
-*/
 
 
 /* GRIDS TIL SEKTIONER */
@@ -363,6 +393,7 @@ footer {
             "globalmenu"
             "home"
             "produkt"
+            "relaterede"
             "training"
             "apport"
             "trivsel"
@@ -399,6 +430,17 @@ footer {
 
     #containertrivsel {
         grid-area: teksttrivsel;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    
+    #hundehighfive {
+        padding-right: 1em;
+    }
+    
+    #trivsel {
+        padding-top: 2em;
+        padding-bottom: 2em;
     }
     
 #trivsel {
@@ -409,15 +451,31 @@ footer {
 }
     
     #denta {
-       width: 60%; 
+    width: 45%;
     }
-    
-    #strips {
-        width: 60%;
+
+    #denta:active {
+        width: 50%;
     }
-    
+
     #mixed {
-        width: 60%;
+        width: 45%;
+    }
+
+    #mixed:active {
+        width: 50%;
+    }
+
+    #strips {
+        width: 45%;
+    }
+
+    #strips:active {
+        width: 50%;
+    }
+    
+    #relaterede {
+        height: 100%;
     }
     
     #softbites {
@@ -436,25 +494,39 @@ footer {
     }
     
     .tekstsoftbites {
-        width: 50%;
-        transform: translateX(50%);
-        padding-bottom: 2em;
+        position: relative;
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-bottom: 1em;
     }
     
     #fordelecontainer {
-        transform: translateX(30%)
+        position: relative;
+        transform: translateX(-40%);
+        left: 50%;
     }
     
     #buynow {
-        margin-left: 20em;
-        margin-right: 20em;
         height: 60px;
+        position: relative;
+        transform: translateX(-50%);
     }
     
     #grocerycontainer {
         width: 80%;
-        transform: translateX(12%);
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        
     }
+    
+    #softbitespose {
+        max-width:  width: 100%;
+        height: auto;
+    }
+    
+    
 }
 
 
@@ -492,15 +564,31 @@ footer {
 }
     
     #denta {
+    width: 50%;
+    }
+
+    #denta:hover {
+        width: 55%;
+    }
+
+    #mixed {
         width: 50%;
     }
-    
+
+    #mixed:hover {
+        width: 55%;
+    }
+
     #strips {
         width: 50%;
     }
+
+    #strips:hover {
+        width: 55%;
+    }
     
-    #mixed {
-        width: 50%;
+    #relaterede {
+        max-height: 100%;
     }
     
     #softbites {
@@ -516,30 +604,51 @@ footer {
     
     .tekstsoftbites h1{
         text-align: center;
+        font-size: 80px;
     }
     
     .tekstsoftbites {
-        width: 50%;
-        transform: translateX(50%);
-        padding-bottom: 2em;
+        position: relative;
+        width: 95%;
+        transform: translateX(-50%);
+        padding-bottom: 1em;
+        font-size: 25px;
     }
     
     #fordelecontainer {
-        transform: translateX(30%)
+        position: relative;
+        left: 50%;
+        transform: translateX(-30%);
+        font-size: 25px;
     }
     
     #buynow {
-        margin-left: 30em;
-        margin-right: 30em;
-        height: 60px;
+        height: 100px;
+        width: 40%;
+        position: relative;
+        left: 50%;
+        font-size: 25px;
+        transform: translateX(-30%);
+    }
+    
+    #buynow:hover {
+        background-color: white;
+        border: 4px solid orange;
+        color: orange;
     }
     
     #softbitespose {
-        transform: translateX(30%);
+        position: relative;
+        left: 50%;
+        transform: translateX(-60%);
+        max-width: 100%;
+        height: auto;
     }
     
     #grocerycontainer {
         width: 50%;
-        transform: translateX(50%);
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
