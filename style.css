@@ -152,6 +152,15 @@ header {
     margin-left: -2em; 
 }
 
+#apport h2 {
+    color: white;
+}
+
+#apport p {
+    font-weight: 500;
+    padding-bottom: 0.3em;
+}
+
 #tekstguide {
     position: absolute;
     width: 100%;
@@ -163,6 +172,12 @@ header {
 #howtosit {
     margin-left: 2em;
 }
+
+.sitsteps {
+    font-weight: 500;
+    padding-bottom: 1em;
+}
+
 
 #trivsel {
     background-color: #FBFBFB;
@@ -195,18 +210,6 @@ footer {
     bottom: 1px;
     margin-left: -7em
 }
-
-/*
-#whiteborder {
-    border: 8px solid white;
-    margin-right: 40px;
-    margin-left: 40px;
-}
-
-#turkisborder {
-    border: 4px solid #75C6AB;
-}
-*/
 
 
 /* GRIDS TIL SEKTIONER */
