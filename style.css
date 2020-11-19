@@ -287,7 +287,9 @@ footer {
     }
     
 #apport {
-    height: 800px;
+    height: 600px;
+    background-position: right;
+    
 }
 
 #tekstguide {
@@ -298,15 +300,22 @@ footer {
     padding-left: 2em;
 }
 
-    #containertrivsel {
-        grid-area: teksttrivsel;
+    
+#containertrivsel {
+    grid-area: teksttrivsel;
+    padding-left: 2em;
+    padding-right: 1em;
+    }
+    
+    #hundehighfive {
+        padding-right: 1em;
     }
     
 #trivsel {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-        "hundeogejer teksttrivsel";          
+        "teksttrivsel hundeogejer";          
 }
     
 }
@@ -326,12 +335,13 @@ footer {
             "footer";
     }
     #apport {
-        height: 600px;
+        height: 800px;
+        background-position: right;
     }
 
     #tekstguide {
-        transform: translateY(20%);
         transform: translateX(170%);
+        margin-top: 2em;
         width: 35%;
     }
     
@@ -339,11 +349,20 @@ footer {
     grid-area: teksttrivsel;
     }
     
+    #hundehighfive {
+        padding-right: 3em;
+    }
+    
 #trivsel {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-        "hundeogejer teksttrivsel";          
+        "teksttrivsel hundeogejer";          
 }
+    
+    #containertrivsel {
+        padding-left: 4em;
+        padding-right: 1em;
+    }
     
 }
