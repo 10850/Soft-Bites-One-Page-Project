@@ -107,7 +107,6 @@ header {
 }
 
 #training {
-    background-color: #FBFBFB;
     height: auto;
     grid-area: training;
     padding-right: 2em;
@@ -115,6 +114,12 @@ header {
     background-image: url(framemobile1.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#training img {
+    grid-area: imgtraining;
+    max-width: 100%;
+    height: auto;
 }
 
 #apport {
@@ -255,12 +260,24 @@ footer {
     background-image: url(frameframe1.png);
     background-repeat: no-repeat;
     background-size: cover;
+        
     }
     
     #trivsel {
     background-image: url(frameframe1.png);
     background-repeat: no-repeat;
     background-size: cover;
+    }
+    
+    #training div {
+        grid-area: teksttraining;
+    }
+    
+    #training {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "teksttraining imgtraining";
     }
     
 #apport {
