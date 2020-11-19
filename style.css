@@ -88,9 +88,9 @@ header {
     background-size: cover;
 }
 
-#fordele {
-    list-style: disc;
-    margin-left: 2em;
+#softbites li {
+    list-style-image: url(potelist.png);
+    margin-left: 4em;
 }
 
 .godepointer {
@@ -102,9 +102,28 @@ header {
     height: auto;
 }
 
+#cta {
+    text-align: center;
+    padding-bottom: 1.5em;
+}
+
+a:visited {
+  color: #27335f;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 #forhandlere {
     max-width: 100%;
     height: auto;
+}
+
+#købmandtekst {
+    color: #27335f;
+    text-align: center;
+    padding-bottom: 1em;
 }
 
 #relaterede {
@@ -179,8 +198,9 @@ footer {
     position: absolute;
     height: 220px;
     bottom: 1px;
-    margin-left: -7em
+    margin-left: -7em;
 }
+
 
 /*
 #whiteborder {
