@@ -124,11 +124,16 @@ header {
     text-align: center;
 }
 
+.tekstsoftbites {
+    position: relative;
+    top: 20%;
+}
+
 #softbitespose {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -160,6 +165,11 @@ header {
 #fordele {
     list-style: disc;
     margin-left: 2em;
+}
+
+#fordelecontainer {
+    top: 15%;
+    position: relative;
 }
 
 .godepointer {
@@ -252,6 +262,12 @@ header {
     background-image: url(framemobile1.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#training h {
+    position: relative;
+    left: 50%;
+    transform: translateX();
 }
 
 #training img {
@@ -362,8 +378,7 @@ footer {
         "trivseltitel"
         "hundeogejer"
         "teksttiltrivsela"
-        "teksttiltrivselb";
-             
+        "teksttiltrivselb";      
 }
 
 #softbitespose {
@@ -451,6 +466,18 @@ footer {
             "footer";
     }
     
+    h1 {
+        font-size: 50px;
+    }
+    
+    h2 {
+        font-size: 30px;
+    }
+    
+    h3 {
+        font-size: 20px;
+    }
+    
     #forsidemobil {
     display: none;
     }
@@ -486,12 +513,21 @@ footer {
     background-image: url(frameframe1.png);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 3em;
+        padding-bottom: 3em;
+        padding-left: 3em;
+    }
+    
+    #teksttraining {
+        margin-left: 1em;
     }
     
     #trivsel {
     background-image: url(frameframe1.png);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 3em;
+    padding-top: 2em;
     }
     
     #training {
@@ -745,12 +781,58 @@ footer {
         position: relative;
         left: 50%;
         transform: translateX(-50%);
-        bottom: 50%;
+        bottom: 20%;
     }
 
     #containertrivsel {
         padding-left: 4em;
         padding-right: 1em;
+    }
+    
+    body {
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+    
+    #home {
+        margin-right: -6em;
+        margin-left: -6em;
+    }
+    
+    #relaterede {
+        margin-right: -6em;
+        margin-left: -6em;
+    }
+    
+    #apport {
+        margin-right: -6em;
+        margin-left: -6em;;
+    }
+    
+    footer {
+       margin-right: -6em;
+        margin-left: -6em; 
+    }
+    
+    header {
+        width: 100%;
+        position: fixed;
+        margin-right: -6em;
+        margin-left: -6em;
+        z-index: 1;
+    }
+    
+    /* Font manipulation */
+    h2 {
+        font-size: 50px;
+    }
+    
+    h3 {
+        font-size: 35px;
+    }
+    
+    #teksttraining {
+        padding-left: 3em;
     }
     
 }
