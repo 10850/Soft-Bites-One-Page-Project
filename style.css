@@ -467,6 +467,10 @@ footer {
             "footer";
     }
     
+    #logo {
+        margin-top: -1em;
+    }
+    
     h1 {
         font-size: 50px;
     }
@@ -484,7 +488,7 @@ footer {
     }
     
     #home {
-        background-image: url(Cover%20flipped%20w%20text.jpg);
+        background-image: url(Cover%20flipped%20text2.jpg);
         background-repeat: no-repeat;
         background-size: contain;
     }
@@ -647,6 +651,8 @@ footer {
         position: relative;
         bottom: 20%;
     }
+    
+    
     
 }
 
