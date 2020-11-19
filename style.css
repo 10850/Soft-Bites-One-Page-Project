@@ -94,11 +94,18 @@ header {
 }
 
 #home {
-    background-color: blue;
-    height: 300px;
+    height: auto;
     grid-area: home;
     margin-right: -2em;
     margin-left: -2em;
+}
+
+#forsidemobil {
+    width: 100%;
+}
+
+#hundforside {
+    display: none;
 }
 
 #softbites {
@@ -444,6 +451,31 @@ footer {
             "footer";
     }
     
+    #forsidemobil {
+    display: none;
+    }
+    
+    #home {
+        background-image: url(Cover%20flipped%20w%20text.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+    #forsidemobil {
+        display: none;
+    }
+    
+    #hundforside {
+        display: block;
+        max-width: 40%;
+        left: 60%;
+        transform: translateY(-5%);
+        height: auto;
+        position: relative;
+        z-index: 1;
+
+    }
+    
     #softbites {
     background-image: url(frameframe1.png);
     background-repeat: no-repeat;
@@ -569,7 +601,7 @@ footer {
         position: relative;
         left: 50%;
         transform: translateX(-50%);
-        bottom: 50%;
+        bottom: 10%;
     }
     
     #softbitespose {
@@ -713,6 +745,7 @@ footer {
         position: relative;
         left: 50%;
         transform: translateX(-50%);
+        bottom: 50%;
     }
 
     #containertrivsel {
