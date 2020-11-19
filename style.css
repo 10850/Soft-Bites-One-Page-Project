@@ -42,6 +42,38 @@ html {
 
 
 /* Styling */
+#regn {
+    position: absolute;
+    z-index: 3;
+    width: 40%;
+    left: -14%;
+    transform: translateY(-50%);
+}
+
+#regn2 {
+    position: absolute;
+    z-index: 3;
+    width: 40%;
+    left: -14%;
+    transform: translateY(-50%);
+}
+
+#regn3 {
+    position: absolute;
+    z-index: 3;
+    width: 40%;
+    left: 70%;
+    transform: translateY(550%);
+}
+
+#regn4 {
+    position: absolute;
+    z-index: 3;
+    width: 40%;
+    left: 60%;
+    transform: translateY(250%);
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: franklin gothic;
     font-weight: bold;
@@ -75,7 +107,7 @@ header {
     position: fixed;
     margin-right: -2em;
     margin-left: -2em;
-    z-index: 1;
+    z-index: 90;
 }
 
 .navbar button {
@@ -91,7 +123,7 @@ header {
     width: 80px;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 2;
+    z-index: 99;
 }
 
 #home {
@@ -466,6 +498,39 @@ footer {
             "trivsel"
             "footer";
     }
+    
+    #regn {
+    position: absolute;
+    z-index: 3;
+    width: 40%;
+    left: -14%;
+    transform: translateY(-50%);
+}
+
+#regn2 {
+    position: absolute;
+    z-index: 3;
+    width: 40%;
+    left: -14%;
+    transform: translateY(-50%);
+}
+
+#regn3 {
+    position: absolute;
+    z-index: 3;
+    width: 40%;
+    left: 60%;
+    transform: translateY(200%);
+}
+
+#regn4 {
+    position: absolute;
+    z-index: 3;
+    width: 30%;
+    left: -10%;
+    transform: translateY(50%);
+}
+    
     
     #logo {
         margin-top: -1em;
