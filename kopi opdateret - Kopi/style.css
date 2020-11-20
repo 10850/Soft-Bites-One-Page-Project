@@ -70,7 +70,7 @@ header {
 }
 
 .whiteborder {
-    border: 4px solid white;
+    border: 8px solid white;
     margin-left: 1em;
     margin-right: 1em;
     border-bottom: none;
@@ -78,7 +78,7 @@ header {
 }
 
 .turkisborder {
-    border: 2px solid #75C6AB;
+    border: 4px solid #75C6AB;
     border-bottom: none;
     border-top: none;
 }
@@ -129,11 +129,26 @@ body {
 }
 
 #logo {
-    position: absolute;
+    position: relative;
     width: 80px;
-    left: 50%;
-    transform: translateX(-50%);
     z-index: 99;
+    grid-area: logomenu;
+}
+
+.menu {
+    grid-area: menuheader;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "menuheader logomenu";
+}
+
+header .menucontainer {
+    position: relative;
+    right: 15%;
 }
 
 #home {
@@ -502,6 +517,18 @@ footer p{
 
 /* GRID(S) TIL TABLET */
 @media screen and (min-width: 768px) {
+    #softbites {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-areas: 
+        "softbitetekst softbitetekst"
+        "fordele pose"
+        "fordele pose"
+        "buynow buynow"
+        "grocery grocery";
+}
+    
     #forsidemobil {
         display: none;
     }
@@ -539,7 +566,7 @@ footer p{
     }
     
     #buynow {
-        width: 250px;
+        width: 200px;
         height: 80px;
         font-weight: 600;
     }
@@ -548,8 +575,22 @@ footer p{
         font-weight: 800;
     }
     
+    .tekstsoftbites {
+        top: 50px;
+    }
+    
+    #fordelecontainer {
+        padding-left: 3em;
+    }
+    
     #softbitespose {
-        max-width: 80%;
+        max-width: 100%;
+        height: auto;
+        top: 50px;
+    }
+    
+    #grocerycontainer {
+        bottom: 100px;
     }
 
 /* TRÆNING */
@@ -593,7 +634,7 @@ footer p{
 }
 
 #tekstguide {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     padding: 1em;
     padding-left: 50%;
@@ -631,12 +672,156 @@ footer p{
     
 }
 
+@media screen and (min-width: 871px) {
+    .tekstsoftbites {
+        top: 50px;
+    }
+    
+    #fordelecontainer {
+        padding-left: 3em;
+    }
+    
+    #softbitespose {
+        max-width: 100%;
+        height: auto;
+        top: 5px;
+    }
+    
+    #grocerycontainer {
+        bottom: 185px;
+    }
+    
+    #softbites {
+        margin-bottom: -8em;
+    }
+}
+
+@media screen and (min-width: 914px) {
+    .tekstsoftbites {
+        top: 50px;
+    }
+    
+    #fordelecontainer {
+        padding-left: 3em;
+    }
+    
+    #softbitespose {
+        max-width: 100%;
+        height: auto;
+        top: 5px;
+    }
+    
+    #grocerycontainer {
+        bottom: 70px;
+    }
+    
+    #softbites {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 942px) {
+    .tekstsoftbites {
+        top: 50px;
+    }
+    
+    #fordelecontainer {
+        padding-left: 3em;
+    }
+    
+    #softbitespose {
+        max-width: 85%;
+        height: auto;
+        top: 5px;
+    }
+    
+    #grocerycontainer {
+        bottom: 100px;
+    }
+    
+    #softbites {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 942px) {
+    .tekstsoftbites {
+        top: 50px;
+    }
+    
+    #fordelecontainer {
+        padding-left: 6em;
+    }
+    
+    #softbitespose {
+        max-width: 85%;
+        height: auto;
+        top: 5px;
+    }
+    
+    #grocerycontainer {
+        bottom: 100px;
+    }
+    
+    #softbites {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 1058px) {
+    .tekstsoftbites {
+        top: 50px;
+    }
+    
+    #fordelecontainer {
+        padding-left: 6em;
+    }
+    
+    #softbitespose {
+        max-width: 85%;
+        height: auto;
+        top: -10px;
+    }
+    
+    #grocerycontainer {
+        bottom: 100px;
+    }
+    
+    #softbites {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 1175px) {
+    .tekstsoftbites {
+        top: 50px;
+    }
+    
+    #fordelecontainer {
+        padding-left: 9em;
+        margin-top: 1.5em;
+    }
+    
+    #softbitespose {
+        max-width: 85%;
+        height: auto;
+        top: -40px;
+        left: 160px;
+    }
+    
+    #grocerycontainer {
+        bottom: 100px;
+    }
+    
+    #softbites {
+        margin-bottom: 0;
+    }
+}
 
 /* DESKTOP */
 @media screen and (min-width: 1280px) {
 
 #buynow {
-    margin-top: 1em;
     margin-bottom: 1em;
     color: black;
     font-size: 25px;
@@ -687,8 +872,9 @@ footer p{
 }
     
 #softbitespose {
-    max-width: 60%;   
+    max-width: 50%;   
     height: auto;
+    padding-bottom: 1em;
 } 
 
 #grocerycontainer {
@@ -724,35 +910,228 @@ footer p{
 
     
     #denta {
-    width: 50%;
+        max-width: 50%;
+        height: auto;
     }
 
     #denta:hover {
-        width: 55%;
+        max-width: 55%;
+        height: auto;
     }
 
     #mixed {
-        width: 50%;
+        max-width: 50%;
         margin-top: 10px;
+        height: auto;
     }
 
     #mixed:hover {
-        width: 55%;
+        max-width: 55%;
+        height: auto;
     }
 
     #strips {
-        width: 50%;
+        max-width: 50%;
+        height: auto;
     }
 
     #strips:hover {
-        width: 55%;
+        max-width: 55%;
+        height: auto;
     }
     
     #relaterede {
-        max-height: 100%;
+        max-width: 100%;
+        height: auto;
     }
     
     .godbidder {
         max-width: 30%;
+        height: auto;
+    }
+    
+    header {
+    display: grid;
+    grid-template-columns: 1fr 12fr;
+    grid-template-areas: 
+        "logomenu menuheader";
+    }
+    
+    .menucontainer {
+        left: 0;
+    }
+    
+    .menu {
+        position: relative;
+        top: 30px;
+        font-size: 20px;
+    }
+    
+    .menu li {
+        padding-right: 2em;
+    }
+    
+    #logo {
+        width: 100%;
+    }
+    
+    #buynow {
+        width: 200px;
+        height: 80px;
+        font-weight: 600;
+    }
+    
+    #buynow:active {
+        font-weight: 800;
+    }
+    
+    #fordelecontainer {
+        padding-left: 3em;
+    }
+    
+    #softbitespose {
+        max-width: 90%;
+        height: auto;
+    }
+    
+    #grocerycontainer {
+        bottom: 360px;
+    }
+    
+    #grocery {
+        width: 50%;
+    }
+    
+    #minkobmand {
+        position: relative;
+        right: 30%;
+    }
+    
+    #spar {
+        position: relative;
+        left: 30%;
+    }
+    
+    #meny {
+        position: relative;
+        right: 30%;
+        top: 30%;
+    }
+    
+    #letkob {
+        position: relative;
+        left: 30%;
+        top: 30%;
+    }
+    
+    #softbites {
+        margin-bottom: -250px;
+    }
+    
+    #training {
+       padding-top: 5em; 
+    }
+    
+    .tekstsoftbites {
+        top: 85px;
+    }
+    
+    #fordelecontainer {
+        padding-left: 10em;
+        margin-top: 0.5em;
+    }
+    
+    #softbitespose {
+        max-width: 85%;
+        height: auto;
+        top: 30px;
+        left: 200px;
+    }
+    
+    #grocerycontainer {
+        bottom: 350px;
+    }
+    
+}
+
+@media screen and (min-width: 1340px) {
+    .tekstsoftbites {
+        top: 50px;
+    }
+    
+    #fordelecontainer {
+        padding-left: 11em;
+        margin-top: -2em;;
+    }
+    
+    #softbitespose {
+        max-width: 85%;
+        height: auto;
+        top: -20px;
+        left: 200px;
+    }
+    
+    #grocerycontainer {
+        bottom: 300px;
+    }
+    
+    #softbites {
+        margin-bottom: -12em;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .tekstsoftbites {
+        top: 50px;
+        padding-left: 9em;
+        padding-right: 9em;
+    }
+    
+    #fordelecontainer {
+        padding-left: 16em;
+        margin-top: 0em;;
+    }
+    
+    #softbitespose {
+        max-width: 85%;
+        height: auto;
+        top: -60px;
+        left: 240px;
+    }
+    
+    #grocerycontainer {
+        bottom: 300px;
+    }
+    
+    #softbites {
+        margin-bottom: -12em;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .tekstsoftbites {
+        top: 50px;
+        padding-left: 9em;
+        padding-right: 9em;
+    }
+    
+    #fordelecontainer {
+        padding-left: 16em;
+        margin-top: 0em;;
+    }
+    
+    #softbitespose {
+        max-width: 85%;
+        height: auto;
+        top: -60px;
+        left: 240px;
+    }
+    
+    #grocerycontainer {
+        bottom: 250px;
+    }
+    
+    #softbites {
+        margin-bottom: -8em;
     }
 }
